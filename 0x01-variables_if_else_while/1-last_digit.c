@@ -13,7 +13,7 @@ int main(void)
 	int num;
 
 	srand(time(0));
-	n = (n % 10);
+	n = n % 10;
 	if (num > 5)
 	{
 		printf("%d and is greater than 5\n", num);
