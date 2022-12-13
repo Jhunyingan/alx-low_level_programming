@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
-  * main - Returns alphabets
+  * print_alphabet - Entry point
   *
-  * Return: Always 0 (Success)
+  * Return: 0
   */
 
-int main(void)
+void print_alphabet(void)
 {
 	int ch = 'a';
 
@@ -17,5 +17,4 @@ int main(void)
 		ch++;
 	}
 	putchar('\n');
-	return (0);
 }
