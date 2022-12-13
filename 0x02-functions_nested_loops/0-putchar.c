@@ -1,14 +1,24 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
-  * main - Entry Point
+  * main - Entry point
+  *
+  * Description: prototype
   *
   * Return: 0 (Success)
   */
 
-int main(void)
+int main(void);
 {
-	printf("_putchar\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('e');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
