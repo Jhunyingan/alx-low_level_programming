@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
-  * main - Entry Point
+  * main - Returns alphabets
   *
   * Return: Always 0 (Success)
   */
