@@ -3,12 +3,11 @@
 /**
   * main - Entry point
   *
-  * Description: prototype
-  *
-  * Return: 0 (Success)
+  * Return: Always 0 (Success)
   */
 
 int main(void)
+
 {
 	_putchar('_');
 	_putchar('p');
@@ -16,7 +15,7 @@ int main(void)
 	_putchar('t');
 	_putchar('c');
 	_putchar('h');
-	_putchar('e');
+	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
 
