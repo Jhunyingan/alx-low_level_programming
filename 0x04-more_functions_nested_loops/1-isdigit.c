@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
   * _isdigit - a function that checks for a digit (0 through 9)
