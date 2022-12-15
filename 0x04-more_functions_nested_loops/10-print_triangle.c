@@ -3,7 +3,7 @@
 /**
   * print_triangle - a function that prints a triangle
   * @size: size of the triangle
-  * Return: triangle of '#'
+  * Return: triangle of '#'s
   */
 
 void print_triangle(int size)
@@ -18,7 +18,7 @@ void print_triangle(int size)
 	{
 		for (j = 0; j <= (size - 1); j++)
 		{
-			for (i = 0; i <= (size - 1) - j; i++)
+			for (i = 0; i < (size - 1) - j; i++)
 			{
 				_putchar(' ');
 			}
